@@ -1,5 +1,6 @@
 package exam1;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -231,7 +232,7 @@ public class Exam01Test {
         assertEquals("Win for Player B", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void Advantage_case01_should_Advantage_player_A() {
         exam01.playerAWin();
         exam01.playerBWin();
@@ -244,7 +245,7 @@ public class Exam01Test {
         assertEquals("Advantage Player A", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void Advantage_case02_should_Advantage_player_B() {
         exam01.playerAWin();
         exam01.playerBWin();
@@ -257,7 +258,7 @@ public class Exam01Test {
         assertEquals("Advantage Player B", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void Advantage_case03_should_Advantage_player_A() {
         exam01.playerAWin();
         exam01.playerBWin();
@@ -272,7 +273,7 @@ public class Exam01Test {
         assertEquals("Advantage Player A", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void Advantage_case04_should_Advantage_player_B() {
         exam01.playerAWin();
         exam01.playerBWin();
@@ -287,7 +288,7 @@ public class Exam01Test {
         assertEquals("Advantage Player B", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void player_A_is_winner_with_6_4_should_Win_for_Player_A() {
         exam01.playerAWin();
         exam01.playerBWin();
@@ -304,7 +305,7 @@ public class Exam01Test {
         assertEquals("Win for Player A", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void player_B_is_winner_with_6_4_should_Win_for_Player_B() {
         exam01.playerAWin();
         exam01.playerBWin();
@@ -321,7 +322,7 @@ public class Exam01Test {
         assertEquals("Win for Player B", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void player_B_is_winner_with_16_14_should_Win_for_Player_B() {
         exam01.playerAWin();
         exam01.playerBWin();
