@@ -33,9 +33,6 @@ public class Exam01 {
             score = convertToString(scorePlayer1)+"-"+convertToString(scorePlayer2);
         }
 
-        this.scorePlayer1=0;
-        this.scorePlayer2=0;
-
         return score;
     }
 
