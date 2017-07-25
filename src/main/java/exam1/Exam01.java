@@ -2,15 +2,11 @@ package exam1;
 
 public class Exam01 {
 
-    private static String player1;
-    private static String player2;
     private static int scorePlayer1;
     private static int scorePlayer2;
 
     public Exam01(String firstPerson, String secondPerson) {
-        this.player1 = firstPerson;
         this.scorePlayer1 = 0;
-        this.player2 = secondPerson;
         this.scorePlayer2 = 0;
     }
 
